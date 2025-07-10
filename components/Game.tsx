@@ -18,7 +18,7 @@ type GameResult = {
   won: boolean;
 };
 
-const Game: React.FC = () => {
+const Game = () => {
   const [threshold, setThreshold] = useState<number>(50);
   const [direction, setDirection] = useState<"under" | "over">("under");
   const [result, setResult] = useState<number | null>(null);

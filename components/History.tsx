@@ -18,7 +18,7 @@ type Props = {
   }[];
 };
 
-const History: React.FC<Props> = ({ history }) => {
+const History = ({ history }: Props) => {
   return (
     <TableContainer component={Paper} sx={{ mt: 4 }}>
       <Table size="small">
